@@ -1,0 +1,40 @@
+<!doctype html>
+<!--[if IE 9]><html class="no-js ie9" lang=""><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang=""><!--<![endif]-->
+	<head>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Project Name : </title>
+		<meta name="keywords" content="">
+		<meta name="description" content="Sass Boilerplate for Evolution">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+		<link rel="shortcut icon" href="../../../assets/images/core/favicon.ico">
+		
+		<link href="../../../assets/css/evolution.css" rel="stylesheet" type="text/css">
+		<link href="../../../assets/css/evolution-animations.css" rel="stylesheet" type="text/css">
+		<link href="../../../assets/css/app.css" rel="stylesheet" type="text/css">
+		<!--[if IE 9]><link href="../../../assets/css/ie.css" rel="stylesheet" type="text/css"><![endif]-->
+	</head>
+	<body>
+
+		<!-- PAGE - BEGINS -->
+		<section role="main">
+			// ITEM SELECTION PANEL ITEM SELECTED TOGGLE - BEGINS
+	var evoItemSelectionPanelItemSelected = function (){
+		jQuery('[data-evo-item-selection-panel-item]').change(function() {
+			jQuery(this).toggleClass('evo-item-selection-panel-item-selected');
+		});
+	}
+	evoItemSelectionPanelItemSelected();
+// ITEM SELECTION PANEL ITEM SELECTED TOGGLE - ENDS
+		</section>
+		<!-- PAGE - ENDS -->
+
+		<script src="../../../assets/js/evolution.js"></script>
+		<script src="../../../assets/js/evolution-animations.js"></script>
+		<script src="../../../assets/js/app.js"></script>
+	</body>
+</html>
