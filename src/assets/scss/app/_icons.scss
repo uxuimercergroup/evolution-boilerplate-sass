@@ -1,0 +1,21 @@
+//-------------------------------------------------------------------------------------------
+// Application Icons Partial
+//-------------------------------------------------------------------------------------------
+
+@if $use-icon-font-app == true {
+
+	// ICON FONT
+	// ------------------------------------------------------------------------------------------
+	@include font-face($evo-icon-app-font-family, $evo-icon-app-font-file-path);
+
+
+	// ICONS
+	// ------------------------------------------------------------------------------------------
+
+	// ICON FONT - SITE SET - FONT STACK
+	[class^="evo-icon-app-"]		{font-family: $evo-icon-app-font-stack;}
+
+	// ICON FONT - SITE SET - ICON CLASSES
+	
+
+}//endif
